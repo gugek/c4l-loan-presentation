@@ -42,3 +42,13 @@ loan_by_collection <- loans_tbl %>%
 pandoc.table(loan_by_collection, style = "simple")
 ```
 
+---
+
+## Charts!
+
+```{r echo = FALSE}
+pp <- ggplot(loan_by_collection, aes(x="", y=count, fill=`Collection Desc`)) + 
+    geom_bar(width = 1, stat = "identity")
+pie <- pp + coord_polar("y", start=0)
+pie
+```

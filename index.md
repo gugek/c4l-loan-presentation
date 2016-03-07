@@ -64,3 +64,8 @@ nrow(loans_tbl)
 ##    Empirical Collection       606
 ```
 
+---
+
+## Charts!
+
+![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5-1.png)
