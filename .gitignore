@@ -4,3 +4,4 @@
 packrat/lib*/
 *.csv
 .cache
+packrat/src/

@@ -220,6 +220,25 @@ Version: 0.4.0
 Hash: b74e3f81bab2d88325d8798d5e03e0cc
 Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
 
+Package: slidify
+Source: github
+Version: 0.5
+Hash: 04db494d2cdd28d462cbba8911efa7c3
+Requires: knitr, markdown, stringr, whisker, yaml
+GithubRepo: slidify
+GithubUsername: ramnathv
+GithubRef: master
+GithubSha1: 1dd41a3023b20efb35d601a7d3fb248930bf076d
+
+Package: slidifyLibraries
+Source: github
+Version: 0.3.1
+Hash: b18088d86ff3b56b722c03b5ad05ef76
+GithubRepo: slidifyLibraries
+GithubUsername: ramnathv
+GithubRef: master
+GithubSha1: dbd065f4843be1377d1aab5f35c9406c60922aa8
+
 Package: stringi
 Source: CRAN
 Version: 1.0-1
