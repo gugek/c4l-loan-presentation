@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 packrat/lib*/
+packrat/src/
 *.csv
 .cache
