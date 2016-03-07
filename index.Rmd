@@ -30,5 +30,12 @@ loans_tbl <- tbl_df(read_tsv("Loans.csv"))
 nrow(loans_tbl)
 ```
 
+--- .class #id
 
+## How many loans?
+```{r echo = FALSE}
+loans_tbl %>% select(`Collection Desc`, `Loan Date`) %>% 
+    group_by(`Collection Desc`)%>%  summarize(count = n()) %>%
+    arrange(desc(count))
+```
 

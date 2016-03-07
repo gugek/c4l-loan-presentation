@@ -43,5 +43,25 @@ nrow(loans_tbl)
 ## [1] 88781
 ```
 
+--- .class #id
 
+## How many loans?
+
+```
+## Source: local data frame [52 x 2]
+## 
+##                Collection Desc count
+##                          (chr) (int)
+## 1                       Stacks 48839
+## 2                     Reserves 23334
+## 3  Periodicals, Current Issues  4590
+## 4                General (III)  1774
+## 5          Christie Collection  1695
+## 6              Course Reserves  1496
+## 7       Library Service Center  1237
+## 8               Cox Collection   699
+## 9           Faculty Collection   634
+## 10        Empirical Collection   606
+## ..                         ...   ...
+```
 
