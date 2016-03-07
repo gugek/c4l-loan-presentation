@@ -17,6 +17,7 @@ setwd("~/Desktop/loans-slides")
 library(dplyr)
 library(ggplot2)
 library(readr)
+library(pander)
 ```
 Data
 ```{r}
@@ -34,8 +35,10 @@ nrow(loans_tbl)
 
 ## How many loans?
 ```{r echo = FALSE}
-loans_tbl %>% select(`Collection Desc`, `Loan Date`) %>% 
+loan_by_collection <- loans_tbl %>% 
+    select(`Collection Desc`, `Loan Date`) %>% 
     group_by(`Collection Desc`)%>%  summarize(count = n()) %>%
-    arrange(desc(count))
+    arrange(desc(count)) %>% slice(1:10)
+pandoc.table(loan_by_collection, style = "simple")
 ```
 

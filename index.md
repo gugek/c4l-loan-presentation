@@ -48,20 +48,61 @@ nrow(loans_tbl)
 ## How many loans?
 
 ```
-## Source: local data frame [52 x 2]
 ## 
-##                Collection Desc count
-##                          (chr) (int)
-## 1                       Stacks 48839
-## 2                     Reserves 23334
-## 3  Periodicals, Current Issues  4590
-## 4                General (III)  1774
-## 5          Christie Collection  1695
-## 6              Course Reserves  1496
-## 7       Library Service Center  1237
-## 8               Cox Collection   699
-## 9           Faculty Collection   634
-## 10        Empirical Collection   606
-## ..                         ...   ...
+## 
+##            Collection Desc             count 
+## ------------------------------------- -------
+##                Stacks                  48839 
+##               Reserves                 23334 
+##      Periodicals, Current Issues       4590  
+##             General (III)              1774  
+##          Christie Collection           1695  
+##            Course Reserves             1496  
+##        Library Service Center          1237  
+##            Cox Collection               699  
+##          Faculty Collection             634  
+##         Empirical Collection            606  
+##              Periodicals                462  
+##               Documents                 406  
+##            NC Alcove (III)              398  
+##      Superseded Looseleaf (III)         328  
+##   Law School Academic Technologies      319  
+##     Regional Reporters (Level 1)        297  
+##               Reference                 238  
+##         Superseded Reference            207  
+##            Alumni Authors               165  
+##         Leisure Reading (III)           132  
+##            Leisure Reading              122  
+##               NC Alcove                 116  
+##        Professional Collection          106  
+## Federal Reporters & Digests (Level 3)   75   
+##            Documents (III)              59   
+##        Unclassified Collection          58   
+##               Archives                  53   
+##           Superseded Codes              51   
+##            Tax Collection               35   
+##              Rare Books                 22   
+##            Superseded Tax               22   
+##          Rare Books, Level 1            19   
+##      Federal Reporters & Digests        18   
+##           Records & Briefs              17   
+##         Practice & Procedure            16   
+##          Regional Reporters             16   
+##              State Codes                16   
+##                 Media                   15   
+##         Superseded Looseleaf            15   
+##             S.J.D. Theses               13   
+##         Tax Collection (III)            12   
+##            Federal Alcove               11   
+##     Professional Collection (III)       11   
+##               Oversize                   8   
+##         Federal Alcove (III)             6   
+##         Rare Books, Oversize             4   
+##                Thesis                    4   
+##     Rare Books, Level 1 Oversize         1   
+##                Riddick                   1   
+##          Riddick Senatorial              1   
+##         State Codes (Level 3)            1   
+##             UnKnown-LAW,-                1
 ```
 
