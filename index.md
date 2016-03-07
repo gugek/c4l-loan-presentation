@@ -47,22 +47,18 @@ nrow(loans_tbl)
 
 ## How many loans?
 
-```
-## 
-## 
-##       Collection Desc        count 
-## --------------------------- -------
-##           Stacks             48839 
-##          Reserves            23334 
-## Periodicals, Current Issues  4590  
-##        General (III)         1774  
-##     Christie Collection      1695  
-##       Course Reserves        1496  
-##   Library Service Center     1237  
-##       Cox Collection          699  
-##     Faculty Collection        634  
-##    Empirical Collection       606
-```
+|       Collection Desc       |  count  |
+|:---------------------------:|:-------:|
+|           Stacks            |  48839  |
+|          Reserves           |  23334  |
+| Periodicals, Current Issues |  4590   |
+|        General (III)        |  1774   |
+|     Christie Collection     |  1695   |
+|       Course Reserves       |  1496   |
+|   Library Service Center    |  1237   |
+|       Cox Collection        |   699   |
+|     Faculty Collection      |   634   |
+|    Empirical Collection     |   606   |
 
 ---
 

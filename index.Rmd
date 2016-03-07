@@ -39,7 +39,9 @@ loan_by_collection <- loans_tbl %>%
     select(`Collection Desc`, `Loan Date`) %>% 
     group_by(`Collection Desc`)%>%  summarize(count = n()) %>%
     arrange(desc(count)) %>% slice(1:10)
-pandoc.table(loan_by_collection, style = "simple")
+set.alignment(row.names = 'left')
+pander(loan_by_collection, 
+             style = 'rmarkdown')
 ```
 
 ---
